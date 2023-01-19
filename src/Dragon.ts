@@ -1,9 +1,9 @@
 import Monster from './Monster';
 
 export default class Dragon extends Monster {
-  protected _lifepoints: number;
+  protected _lifePoints: number;
   constructor() {
     super();
-    this._lifepoints = 999;
+    this._lifePoints = 999;
   }
 }
